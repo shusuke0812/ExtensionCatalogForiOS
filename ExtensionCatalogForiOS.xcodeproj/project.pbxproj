@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C8F166524E97E0600AA9C96 /* UIViewExtensionCatalogForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewExtensionCatalogForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8F166524E97E0600AA9C96 /* ExtensionCatalogForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionCatalogForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8F166824E97E0600AA9C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C8F166A24E97E0600AA9C96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9C8F166C24E97E0600AA9C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		9C8F165C24E97E0600AA9C96 = {
 			isa = PBXGroup;
 			children = (
-				9C8F166724E97E0600AA9C96 /* UIViewExtensionCatalogForiOS */,
+				9C8F166724E97E0600AA9C96 /* ExtensionCatalogForiOS */,
 				9C8F166624E97E0600AA9C96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		9C8F166624E97E0600AA9C96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C8F166524E97E0600AA9C96 /* UIViewExtensionCatalogForiOS.app */,
+				9C8F166524E97E0600AA9C96 /* ExtensionCatalogForiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C8F166724E97E0600AA9C96 /* UIViewExtensionCatalogForiOS */ = {
+		9C8F166724E97E0600AA9C96 /* ExtensionCatalogForiOS */ = {
 			isa = PBXGroup;
 			children = (
 				9C8F167C24E9805000AA9C96 /* Extensions */,
@@ -71,7 +71,7 @@
 				9C8F167324E97E0A00AA9C96 /* LaunchScreen.storyboard */,
 				9C8F167624E97E0A00AA9C96 /* Info.plist */,
 			);
-			path = UIViewExtensionCatalogForiOS;
+			path = ExtensionCatalogForiOS;
 			sourceTree = "<group>";
 		};
 		9C8F167C24E9805000AA9C96 /* Extensions */ = {
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C8F166424E97E0600AA9C96 /* UIViewExtensionCatalogForiOS */ = {
+		9C8F166424E97E0600AA9C96 /* ExtensionCatalogForiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C8F167924E97E0A00AA9C96 /* Build configuration list for PBXNativeTarget "UIViewExtensionCatalogForiOS" */;
+			buildConfigurationList = 9C8F167924E97E0A00AA9C96 /* Build configuration list for PBXNativeTarget "ExtensionCatalogForiOS" */;
 			buildPhases = (
 				9C8F166124E97E0600AA9C96 /* Sources */,
 				9C8F166224E97E0600AA9C96 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = UIViewExtensionCatalogForiOS;
+			name = ExtensionCatalogForiOS;
 			productName = UIViewExtensionCatalogForiOS;
-			productReference = 9C8F166524E97E0600AA9C96 /* UIViewExtensionCatalogForiOS.app */;
+			productReference = 9C8F166524E97E0600AA9C96 /* ExtensionCatalogForiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C8F166024E97E0600AA9C96 /* Build configuration list for PBXProject "UIViewExtensionCatalogForiOS" */;
+			buildConfigurationList = 9C8F166024E97E0600AA9C96 /* Build configuration list for PBXProject "ExtensionCatalogForiOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C8F166424E97E0600AA9C96 /* UIViewExtensionCatalogForiOS */,
+				9C8F166424E97E0600AA9C96 /* ExtensionCatalogForiOS */,
 			);
 		};
 /* End PBXProject section */
@@ -306,12 +306,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2XL9QYTD77;
-				INFOPLIST_FILE = UIViewExtensionCatalogForiOS/Info.plist;
+				INFOPLIST_FILE = ExtensionCatalogForiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.shusuke.ota.UIViewExtensionCatalogForiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.shusuke.ota.ExtensionCatalogForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,12 +324,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2XL9QYTD77;
-				INFOPLIST_FILE = UIViewExtensionCatalogForiOS/Info.plist;
+				INFOPLIST_FILE = ExtensionCatalogForiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.shusuke.ota.UIViewExtensionCatalogForiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.shusuke.ota.ExtensionCatalogForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C8F166024E97E0600AA9C96 /* Build configuration list for PBXProject "UIViewExtensionCatalogForiOS" */ = {
+		9C8F166024E97E0600AA9C96 /* Build configuration list for PBXProject "ExtensionCatalogForiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C8F167724E97E0A00AA9C96 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C8F167924E97E0A00AA9C96 /* Build configuration list for PBXNativeTarget "UIViewExtensionCatalogForiOS" */ = {
+		9C8F167924E97E0A00AA9C96 /* Build configuration list for PBXNativeTarget "ExtensionCatalogForiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C8F167A24E97E0A00AA9C96 /* Debug */,

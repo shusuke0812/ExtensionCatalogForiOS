@@ -1,6 +1,6 @@
 //
 //  UIButton+Extension.swift
-//  UIViewExtensionCatalogForiOS
+//  ExtensionCatalogForiOS
 //
 //  Created by Shusuke Ota on 2020/8/16.
 //  Copyright © 2020 shusuke. All rights reserved.
