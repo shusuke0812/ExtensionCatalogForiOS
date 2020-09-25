@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9C8F166924E97E0600AA9C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F166824E97E0600AA9C96 /* AppDelegate.swift */; };
-		9C8F166B24E97E0600AA9C96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F166A24E97E0600AA9C96 /* SceneDelegate.swift */; };
 		9C8F166D24E97E0600AA9C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F166C24E97E0600AA9C96 /* ViewController.swift */; };
 		9C8F167024E97E0600AA9C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F166E24E97E0600AA9C96 /* Main.storyboard */; };
 		9C8F167224E97E0A00AA9C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F167124E97E0A00AA9C96 /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		9C8F166524E97E0600AA9C96 /* ExtensionCatalogForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionCatalogForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8F166824E97E0600AA9C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C8F166A24E97E0600AA9C96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9C8F166C24E97E0600AA9C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C8F166F24E97E0600AA9C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C8F167124E97E0A00AA9C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			children = (
 				9C8F167C24E9805000AA9C96 /* Extensions */,
 				9C8F166824E97E0600AA9C96 /* AppDelegate.swift */,
-				9C8F166A24E97E0600AA9C96 /* SceneDelegate.swift */,
 				9C8F166C24E97E0600AA9C96 /* ViewController.swift */,
 				9C8F166E24E97E0600AA9C96 /* Main.storyboard */,
 				9C8F167124E97E0A00AA9C96 /* Assets.xcassets */,
@@ -160,7 +157,6 @@
 				9C916CD924E983F4003F11E0 /* UILabel+Extension.swift in Sources */,
 				9C8F167E24E9806E00AA9C96 /* UIButton+Extension.swift in Sources */,
 				9C8F166924E97E0600AA9C96 /* AppDelegate.swift in Sources */,
-				9C8F166B24E97E0600AA9C96 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
