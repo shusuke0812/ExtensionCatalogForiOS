@@ -14,18 +14,84 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="ExtensionCatalogForiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ys-aV-oaz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JRS-C0-yty"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="テスト用画面" id="Wxb-Rd-sk3"/>
+                                </items>
+                            </navigationBar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mlv-rI-df6">
+                                <rect key="frame" x="0.0" y="88" width="414" height="1478"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXN-ML-NwA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gG-Js-zCr">
+                                                <rect key="frame" x="16" y="50" width="382" height="50"/>
+                                                <color key="backgroundColor" systemColor="linkColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="end-M8-2fR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="テスト用のボタン"/>
+                                                <connections>
+                                                    <action selector="tapTestBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w63-Ps-m1f"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="2gG-Js-zCr" firstAttribute="leading" secondItem="aXN-ML-NwA" secondAttribute="leading" constant="16" id="0EL-tV-dx9"/>
+                                            <constraint firstItem="2gG-Js-zCr" firstAttribute="top" secondItem="aXN-ML-NwA" secondAttribute="top" constant="50" id="L1v-89-qqE"/>
+                                            <constraint firstAttribute="height" constant="1400" id="Obe-L9-9Jg"/>
+                                            <constraint firstAttribute="trailing" secondItem="2gG-Js-zCr" secondAttribute="trailing" constant="16" id="m1w-PP-Iap"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aXN-ML-NwA" firstAttribute="top" secondItem="mlv-rI-df6" secondAttribute="top" id="9VA-bA-wI5"/>
+                                    <constraint firstItem="aXN-ML-NwA" firstAttribute="height" secondItem="N19-ZK-3DA" secondAttribute="height" id="DPs-sX-QZg"/>
+                                    <constraint firstItem="aXN-ML-NwA" firstAttribute="width" secondItem="N19-ZK-3DA" secondAttribute="width" id="d9u-dH-wg9"/>
+                                    <constraint firstItem="G01-3R-euW" firstAttribute="trailing" secondItem="aXN-ML-NwA" secondAttribute="trailing" id="l9K-uQ-vec"/>
+                                    <constraint firstItem="aXN-ML-NwA" firstAttribute="leading" secondItem="G01-3R-euW" secondAttribute="leading" id="oUR-ye-EIA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="N19-ZK-3DA"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="G01-3R-euW"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Ys-aV-oaz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4BG-px-36c"/>
+                            <constraint firstItem="mlv-rI-df6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8Lb-kV-ykd"/>
+                            <constraint firstItem="mlv-rI-df6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ev4-gn-FOo"/>
+                            <constraint firstItem="7Ys-aV-oaz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RHK-N9-kwB"/>
+                            <constraint firstItem="7Ys-aV-oaz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="W2g-xR-1bE"/>
+                            <constraint firstItem="mlv-rI-df6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aaM-GX-Jhk"/>
+                            <constraint firstItem="mlv-rI-df6" firstAttribute="top" secondItem="7Ys-aV-oaz" secondAttribute="bottom" id="uBH-zo-lD8"/>
+                        </constraints>
                     </view>
+                    <size key="freeformSize" width="414" height="1600"/>
+                    <connections>
+                        <outlet property="testBtnView" destination="2gG-Js-zCr" id="GCi-sS-Nap"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="119"/>
+            <point key="canvasLocation" x="-341" y="126"/>
         </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

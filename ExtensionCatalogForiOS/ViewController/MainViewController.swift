@@ -10,11 +10,17 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var testBtnView: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.setUI()
     }
-
-
+    @IBAction func tapTestBtn(_ sender: Any) {
+    }
 }
 
+extension MainViewController {
+    private func setUI() {
+        self.testBtnView.layer.cornerRadius = 10.0
+    }
+}
