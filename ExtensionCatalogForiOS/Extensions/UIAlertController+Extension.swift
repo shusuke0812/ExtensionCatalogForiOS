@@ -10,6 +10,14 @@ import UIKit
 
 extension UIAlertController {
     /// スタイルを指定してアラートを表示
+    /// - Parameters:
+    ///   - vc: アラートを表示させるViewController
+    ///   - title: アラートタイトル
+    ///   - message: アラートサブタイトル（メッセージ）
+    ///   - preferredStyle: アラートスタイル（基本は.alert、.actionSheetの2種類）
+    ///   - okBtnLabel: OKボタンの名前
+    ///   - cancelBtnLabel: Cancelボタンの名前（nilにするとOKボタンのみ表示）
+    ///   - completion: OKボタン押下後の処理（nilにすると特に処理は無し）
     internal static func showAlertView(vc: UIViewController, title: String?, message: String?, preferredStyle: UIAlertController.Style, okBtnLabel: String, cancelBtnLabel: String?, completion: (() -> Void)?) {
         // ボタンスタイルを設定
         let alert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
