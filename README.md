@@ -1,13 +1,13 @@
-UIViewのスタイル調整用メソッド集
+iOSアプリ開発で良く使う拡張機能メソッド集
 ====
 　
 ## 開発環境
-- Xcode version 11.6
+- Xcode version 12.0
 - pod version 1.9.1
 - MacOS Catalina version 10.15.4
 
 ## 目的
-- UIViewにextensionでスタイル等の設定を行う関数を定義し、プロジェクト内のファイルで汎用的に扱えるようにする
+- プロジェクト内のファイルで汎用的に使える拡張機能メソッドで開発効率を上げること
 
 ## 概要
 - UILabel
@@ -17,3 +17,5 @@ UIViewのスタイル調整用メソッド集
 	- アイコンなどの画像色を変更する
 - UIButton
 	- ボタンスタイルを設定する
+- UIAlertController  
+  - アラートを表示する  
