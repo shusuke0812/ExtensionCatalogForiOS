@@ -19,8 +19,15 @@ extension UIAlertController {
     ///   - cancelBtnLabel: Cancelボタンの名前（nilにするとOKボタンのみ表示）
     ///   - completion: OKボタン押下後の処理（nilにすると特に処理は無し）
     internal static func showAlertView(vc: UIViewController, title: String?, message: String?, preferredStyle: UIAlertController.Style, okBtnLabel: String, cancelBtnLabel: String?, completion: (() -> Void)?) {
-        // ボタンスタイルを設定
+        // ★ キャンセル｜OK というボタン配置にするためにCancelActionを先にAddする ★
         let alert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
+        // キャンセルボタン押下時の処理（キャンセルボタン無しのパターンも考慮）
+        if let cancelBtnLabel: String = cancelBtnLabel {
+            let cancelAction: UIAlertAction = UIAlertAction(title: cancelBtnLabel, style: .cancel, handler: { (action: UIAlertAction) -> Void in
+            })
+            // Actionにキャンセルボタンを追加
+            alert.addAction(cancelAction)
+        }
         // OKボタン押下時の処理
         let okAction: UIAlertAction = UIAlertAction(title: okBtnLabel, style: .default, handler: { (action: UIAlertAction) -> Void in
             if let completion = completion {
@@ -29,14 +36,6 @@ extension UIAlertController {
         })
         // ActionにOKボタンを追加
         alert.addAction(okAction)
-        
-        // キャンセルボタン押下時の処理（キャンセルボタン無しのパターンも考慮）
-        if let cancelBtnLabel: String = cancelBtnLabel {
-            let cancelAction: UIAlertAction = UIAlertAction(title: cancelBtnLabel, style: .cancel, handler: { (action: UIAlertAction) -> Void in
-            })
-            // Actionにキャンセルボタンを追加
-            alert.addAction(cancelAction)
-        }
         // アラート表示
         vc.present(alert, animated: true, completion: nil)
     }
