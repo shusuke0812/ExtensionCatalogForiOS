@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C3EC94125E0002100FDEAFF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EC94025E0002100FDEAFF /* UIColor+Extension.swift */; };
+		9C3EC94425E001E800FDEAFF /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EC94325E001E800FDEAFF /* UITextView+Extension.swift */; };
 		9C82B427253060CB00E650B5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82B426253060CB00E650B5 /* UIView+Extension.swift */; };
 		9C8F166924E97E0600AA9C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F166824E97E0600AA9C96 /* AppDelegate.swift */; };
 		9C8F166D24E97E0600AA9C96 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F166C24E97E0600AA9C96 /* MainViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		9C3EC94025E0002100FDEAFF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9C3EC94325E001E800FDEAFF /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		9C82B426253060CB00E650B5 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		9C8F166524E97E0600AA9C96 /* ExtensionCatalogForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionCatalogForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8F166824E97E0600AA9C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				9C82B426253060CB00E650B5 /* UIView+Extension.swift */,
 				9CD4EC7325DE199600B725BB /* UIViewController+Extension.swift */,
 				9C3EC94025E0002100FDEAFF /* UIColor+Extension.swift */,
+				9C3EC94325E001E800FDEAFF /* UITextView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				9CD4EC7425DE199600B725BB /* UIViewController+Extension.swift in Sources */,
 				9CB0461C251DBB2200F4B478 /* UIAlertController+Extension.swift in Sources */,
 				9C82B427253060CB00E650B5 /* UIView+Extension.swift in Sources */,
+				9C3EC94425E001E800FDEAFF /* UITextView+Extension.swift in Sources */,
 				9C3EC94125E0002100FDEAFF /* UIColor+Extension.swift in Sources */,
 				9C916CD724E98323003F11E0 /* UIImageView+Extension.swift in Sources */,
 				9C8F166D24E97E0600AA9C96 /* MainViewController.swift in Sources */,
