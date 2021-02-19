@@ -60,4 +60,12 @@ extension UIViewController {
             self.present(safariVC, animated: true, completion: nil)
         }
     }
+    /// imagePickerを起動する
+    internal func openImagePicker() {
+        let picker: UIImagePickerController = UIImagePickerController()
+        picker.delegate = self as? UIImagePickerControllerDelegate & UINavigationControllerDelegate
+        picker.sourceType = .photoLibrary
+        picker.navigationBar.barTintColor = .black
+        self.present(picker, animated: true, completion: nil)
+    }
 }
