@@ -15,12 +15,16 @@ iOSアプリ開発で良く使う拡張機能メソッド集
 	- ラベルのフレーム高さを取得する
 - UIImageView
 	- アイコンなどの画像色を変更する
+	- 文字列URLをUIImageに変換する
 - UIButton
 	- ボタンスタイルを設定する
 - UIAlertController  
   - アラートを表示する  
 - UIView
 	- 枠線を設定する
+- UIColor
+	- HEXコードで色を設定する
 - UViewCcontroller
 	- キーボードの立ち上げによってViewをずらす
 	- キーボード以外をタップしてキーボードを閉じる
+	- SafariViewControllerを立ち上げる
